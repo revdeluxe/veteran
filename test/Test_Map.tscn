@@ -45,7 +45,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1.309, -1 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1.309, -1 )
 
 [node name="Player" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.892333, 0.911203, -0.0544917 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.890136, 0.930512, -0.0752808 )
 
 [node name="Death_Block" parent="." instance=ExtResource( 5 )]
 transform = Transform( 10, 0, 0, 0, 1, 0, 0, 0, 10, -0.551129, -1.233, -0.188274 )
@@ -55,7 +55,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.06763, 0.824365, -0.388976 )
 omni_range = 1.7935
 
 [node name="Musik" type="AudioStreamPlayer3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.620814, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.07005, 0.620814, -0.394202 )
 stream = ExtResource( 4 )
 autoplay = true
 
